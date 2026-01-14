@@ -7,8 +7,23 @@ It includes scripts for **key generation**, **encryption**, and **decryption**.
 
 ## 📦 Required Modules
 
-Install the following dependencies before running the scripts:
+Install the required dependency before running the scripts:
 
-```bash
-pip install cryptography  
+pip install cryptography
+
+---
+
+## 🧪 Running Test Samples
+
+Sender:
+
+python encrypt.py  
+Enter message: Hello Dedsec!  
+Encrypted: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A...
+
+Receiver:
+
+python decrypt.py  
+Encrypted: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A...  
+Decrypted: Hello DedSec!
 
